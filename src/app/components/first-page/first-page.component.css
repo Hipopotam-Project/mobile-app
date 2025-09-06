@@ -1,0 +1,64 @@
+.first-page {
+    padding: 121px 50px 58px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2x;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text h1 {
+    color: #C7141A;
+    font-size: 52px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text-buttons .promise {
+    color: #C7141A;
+    font-size: 20px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns a {
+    display: flex;
+    gap: 10px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btns a:nth-of-type(1) {
+    background-color: #C7141A;
+    color: white;
+}
+
+.btns a:nth-of-type(2) {
+    border: 1px solid #C7141A;
+    color: #C7141A;
+}
+
+

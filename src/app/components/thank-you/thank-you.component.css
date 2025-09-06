@@ -1,0 +1,47 @@
+.thank-section {
+    padding: 121px 50px 58px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.thank-text {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.thank-text h1 {
+    color: #C7141A;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.thank-text p {
+    font-size: 18px;
+}
+
+img {
+    width: 80%;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.questions p:nth-of-type(1) {
+    font-size: 18px;
+}
+
+.questions p:nth-of-type(2) {
+    color: #C7141A;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+}

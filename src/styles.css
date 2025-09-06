@@ -12,3 +12,33 @@
 @import "@ionic/angular/css/flex-utils.css";
 @import "@ionic/angular/css/display.css";
 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #EEEDED;
+    position: relative;
+}
+
+p, span, h1 {
+    color: #1E1B1B;
+}
