@@ -42,3 +42,14 @@ body {
 p, span, h1 {
     color: #1E1B1B;
 }
+
+html, body {
+  height: 100%;
+  overflow-y: auto;             /* ensure vertical scrolling */
+  -webkit-overflow-scrolling: touch; /* fine on Android too */
+  touch-action: auto;           /* allow scroll gestures */
+}
+
+app-root, #root {
+  min-height: 100%;
+}

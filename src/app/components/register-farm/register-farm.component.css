@@ -1,0 +1,84 @@
+/* Map container styling */
+.mapbox-container {
+  width: 100%;
+  height: 360px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 12px;
+}
+
+.map-hint {
+  font-size: 12px;
+  color: #555;
+  margin-top: 6px;
+}
+
+/* Mapbox built-in control buttons will appear inside the map */
+
+.back {
+  align-self: flex-start;
+  padding-left: 30px;
+  text-decoration: underline;
+}
+
+.register-farm {
+  padding: 100px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-farm h1 {
+  font-size: 32px;
+  color: #C7141A;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-bottom: 39px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.farm-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 45px;
+  gap: 5px;
+}
+
+.farm-info label {
+  align-self: flex-start;
+  text-align: left;
+  font-size: 14px;
+}
+
+h3 {
+  padding-bottom: 27px;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.farm-info input {
+  margin-bottom: 12px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 12px;
+  align-items: center;
+  font-size: 16px;
+  width: 18rem;
+  border-radius: 8px;
+  margin-left: 4px;
+}
+
+.farm-btn input {
+ background-color: #C7141A;
+    width: 15rem;
+    align-self: center;
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
